@@ -8,7 +8,9 @@ $ pip install reverse-geocode-bd
 ```
 A Python library for offline reverse geocoding. Reverse Geocode BD takes a (latitude , longitude) coordinate and returns the Division, District, Upazila and Thana of any location in Bangladesh.
 
-##  Example Use 
+Package Available at : https://pypi.org/project/reverse-geocode-bd/
+
+##  Uses Example
 ```python
 from reverse_geocode_bd import ReverseGeoBD
 

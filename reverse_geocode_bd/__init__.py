@@ -1,4 +1,5 @@
 import json
+import os
 
 
 class Point:
@@ -92,7 +93,9 @@ def checkInside(poly, p):
 class ReverseGeoBD:
     def __init__(self):
         self.data_dict = []
-        with open('./reverse_geocode_bd/small_bangladesh_geojson_adm4_5160_unions_thanas.json') as f:
+        filename = 'small_bangladesh_geojson_adm4_5160_unions_thanas.json'
+        json_path = os.path.join(os.getcwd(), os.path.dirname(__file__), filename)
+        with open(json_path) as f:
             data = json.load(f)
         features = data['features']
         for feature in features:
