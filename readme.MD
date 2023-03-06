@@ -1,7 +1,6 @@
 # Reverse GeoCode BD
 
-[![PyPI Downloads](https://static.pepy.tech/personalized-badge/retina-face?period=total&units=international_system&left_color=grey&right_color=blue&left_text=pypi%20downloads)](https://pepy.tech/project/retina-face)
-[![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/retina-face?color=green&label=conda%20downloads)](https://anaconda.org/conda-forge/retina-face)
+[//]: # ([![PyPI Downloads]&#40;https://static.pepy.tech/personalized-badge/reverse-geocode-bd?period=total&units=international_system&left_color=grey&right_color=blue&left_text=pypi%20downloads&#41;]&#40;https://pepy.tech/project/reverse-geocode-bd&#41;)
 
 ## Installation
 ```shell

@@ -110,7 +110,7 @@ class ReverseGeoBD:
     def find(self, x, y):
         rets = []
         
-        point = Point(x, y)
+        point = Point(y, x)
         for region in self.data_dict:
             ret = {}
             polygon = region['polygon']
@@ -121,7 +121,11 @@ class ReverseGeoBD:
                 ret['union'] = region['union']
             if ret!={}:
                 rets.append(ret)
-        return rets
+        # return rets
+        if len(rets) > 0:
+            return rets[0]
+        else:
+            return rets
 
     def get_poly(self, geometry):
         if geometry['type'] == 'Polygon':
@@ -138,10 +142,6 @@ class ReverseGeoBD:
 
 
 def search(x, y):
-    loc = LocationKoi()
-    val = loc.find(y, x)
-    if len(val)>1:
-        return val[0]
-    else:
-        return val
-
+    loc = ReverseGeoBD()
+    val = loc.find(x, y)
+    return val
