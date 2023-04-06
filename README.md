@@ -1,6 +1,6 @@
 # Reverse GeoCode BD
 
-[![PyPI Downloads](https://static.pepy.tech/personalized-badge/reverse-geocode-bd?period=month&units=international_system&left_color=blue&right_color=orange&left_text=PyPi%20Downloads)](https://pepy.tech/project/reverse-geocode-bd)
+[![PyPI Downloads](https://static.pepy.tech/personalized-badge/reverse-geocode-bd?period=total&units=international_system&left_color=blue&right_color=orange&left_text=PyPi%20Downloads)](https://pepy.tech/project/reverse-geocode-bd)
 
 ## Installation
 ```shell
